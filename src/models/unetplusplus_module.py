@@ -1,7 +1,6 @@
 from typing import Any, List
 
 import os
-os.environ["WANDB_API_KEY"] = ""
 import torch
 import pyrootutils
 from pytorch_lightning import LightningModule
